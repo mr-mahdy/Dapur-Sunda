@@ -1,0 +1,211 @@
+body {
+	margin:0 auto;
+}
+
+p {
+	font-family: verdana;
+}
+
+/*font import*/
+@font-face { 
+    font-family: 'riffic-bold';
+    src: url('../fonts/riffic-bold/riffic-bold-webfont.woff') format('woff'),
+         url('../fonts/riffic-bold/riffic-bold-webfont.woff2') format('woff2'),
+         url('../fonts/riffic-bold/riffic-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'code-pro';
+    src: url('../fonts/code-pro/Code_Pro_Demo.otf');
+    src: url('../fonts/code-pro/Code_Pro_Demo.otf?#iefix') format('opentype'),
+         url('../fonts/code-pro/Code_Pro_Demo-webfont.woff') format('woff'),
+         url('../fonts/code-pro/Code_Pro_Demo-webfont.woff2') format('woff2'),;
+}
+/*Navbar*/
+nav.navbar {
+	background-color: #2d3e52;
+	box-shadow: 0 0 5px .05px;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	top: 0;
+
+}
+
+nav a img {
+	width: 40px;
+	margin-top: -10px;
+	margin-left: 10px;
+}
+
+nav ul .dropdown a {
+	font-family: verdana;
+}
+
+nav ul .dropdown a.dropdown-toggle, nav ul .dropdown span {
+	color: white;
+	font-family: 'code-pro';
+}
+
+nav ul li button {
+	margin-left: 100px;
+}
+
+/*Akhir Navbar*/
+/*Carousel*/
+#myCarousel {
+	width: 1050px;
+	height: auto;
+	margin: 100px auto 0;
+	border: 10px solid #2d3e52;
+	border-radius: 10px;
+}
+
+.slide {
+	width: 100%;
+	box-shadow: 0 0 10px 5px grey;
+
+}
+/*akhir carousel*/
+
+/*content*/
+section {
+	margin-top: 30px;
+}
+
+section h2 {
+	font-family: 'riffic-bold';
+	font-size: 40px;
+	-webkit-text-stroke: 3px black;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.container img{
+	margin: 0 auto 30px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid white;
+	box-shadow: 0px 0px 10px grey;
+	border-radius: 10px;
+}
+
+.harga {
+	color: red;
+	border: 1px solid white;
+	box-shadow: 1px 1px 10px grey;
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+}
+
+.container i{
+	color: yellow;
+}
+
+.container a{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+/*sidebar*/
+.sidebar {
+	width: 300px;
+	margin: 20px auto 0;
+	height: 250px;
+	background-color: #518ed2;
+	border-radius: 20px;
+	box-shadow: 0 0 5px .05px grey;
+}
+.sidebar .judulSidebar {
+	width: 90%;
+	height: 65px;
+	background-color: #2d3e52;
+	margin: 20px auto 0;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.sidebar .judulSidebar h3 {
+	font-family: 'code-pro';
+	font-size: 30px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.sidebar ul{
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 30px
+}
+
+.sidebar ul li {
+	text-align: left;
+	margin-top: 20px;
+	width: 200px;
+}
+
+.sidebar a {
+	color: white;
+	margin-left: 0px;
+	font-family: verdana;
+
+}
+
+.sidebar a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/*akhir sidebar*/
+
+
+.informasi{
+	text-align: right;
+}
+
+.deskripsi{
+	margin: 0 auto 30px;
+	font-size: 18px;
+	border: 1px solid white;
+	box-shadow: 1px 1px 10px grey;
+}
+
+.deskripsi h3 {
+	font-family: 'code-pro';
+}
+
+.deskripsi p {
+	text-align: left;
+}
+/*akhir container*/
+
+/*footer*/
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: #2d3e52;
+	margin-top: 150px;
+}
+
+footer h4 {
+	font-family: 'code-pro';
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+}
+
+footer .row p {
+	font-family: verdana;
+	color: white;
+}
+footer .gambar{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+
+/*akhir footer*/
